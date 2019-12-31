@@ -1,0 +1,11 @@
+Okay, so we found some important looking files on a linux computer. 
+Maybe they can be used to get a password to the process.
+Connect with nc 2018shell.picoctf.com 5221. 
+Files can be found here: passwd shadow.
+
+-user command unshadow passwd shadow > crack.txt
+- john --wordlist='/usr/share/wordlists/rockyou.txt crack.txt
+- password1
+- Go  nc 2018shell.picoctf.com 5221
+- username: root , password: password1, enter this flag...
+flag= picoCTF{J0hn_1$_R1pp3d_289677b5}
