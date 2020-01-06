@@ -1,0 +1,28 @@
+Our network administrator is having some trouble handling the tickets for all of of our incidents.
+Can you help him out by answering all the questions?
+Connect with nc 2018shell.picoctf.com 10493.
+incidents.json
+
+-download file incidents.json, open with notepad++, its a common json; 
+- nc 2018shell.picoctf.com 10493 and respond the questions;
+
+- question one
+
+What is the most common source IP address? If there is more than one IP address that is the most common, you may give any o
+f the most common ones.                                                                                                    
+251.71.156.29                                                                                                              
+Correct! 
+
+- question two
+How many unique destination IP addresses were targeted by the source IP address 31.13.251.15?                              
+2                                                                                                                          
+Correct! 
+
+-question three; 
+What is the number of unique destination ips a file is sent, on average? Needs to be correct to 2 decimal places. 
+brute force con statistics hahaha scala 9/1=,.......9/8=1.125; 
+
+correct
+
+
+flag=picoCTF{J4y_s0n_d3rUUUULo_a062e5f8}
