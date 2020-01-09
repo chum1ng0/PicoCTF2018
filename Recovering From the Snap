@@ -1,0 +1,11 @@
+There used to be a bunch of animals here,
+what did Dr. Xernon do to them?
+
+hints: 
+Some files have been deleted from the disk image,
+but are they really gone?
+
+- download ftk imager, mount the file animals.dd
+-search file "flag"; 
+
+flag= picoCTF{th3_5n4p_happ3n3d}
